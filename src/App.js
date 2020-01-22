@@ -28,13 +28,18 @@ function Home() {
   return (
     <>
       <div className="App-content">Home</div>
-      <div>tested on a small change :)</div>
+      <div>Hello Codecool!</div>
     </>
   );
 }
 
 function About() {
-  return <div className="App-content">About</div>;
+  return (
+    <>
+      <div className="App-content">About</div>
+      <div>Such a cool site, right?!</div>
+    </>
+  );
 }
 
 export default App;
