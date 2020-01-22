@@ -26,10 +26,10 @@ function App() {
 
 function Home() {
   return (
-    <div className="App-content">
-      Home
+    <>
+      <div className="App-content">Home</div>
       <div>tested on a small change :)</div>
-    </div>
+    </>
   );
 }
 
