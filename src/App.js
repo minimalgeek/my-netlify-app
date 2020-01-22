@@ -25,7 +25,12 @@ function App() {
 }
 
 function Home() {
-  return <div className="App-content">Home</div>;
+  return (
+    <div className="App-content">
+      Home
+      <div>tested on a small change :)</div>
+    </div>
+  );
 }
 
 function About() {
